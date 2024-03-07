@@ -18,7 +18,7 @@ public class Point implements Comparable {
         return "(" + x + ", " + y + ")";
     }
 
-    private boolean checkType(Point point_other) {
+    private boolean checkType(Object point_other) {
         return point_other instanceof Point;
     }
 

@@ -12,4 +12,9 @@ class Q1a {
     public String toString() {
         return this.questionNumber + " " + this.questionText + " ( " + this.marks + " )";
     }
+
+    public static void main(String[] args) {
+        Q1a question = new Q1a("text", 1, 1);
+        System.out.println(question);
+    }
 }
